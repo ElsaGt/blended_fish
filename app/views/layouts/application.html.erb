@@ -3,9 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TODO</title>
+    <title>Blended Fish</title>
+    <meta name="description" content="Fish? Does it blend? Yes, it does.">
+
+    <!-- Facebook Open Graph data -->
+        <meta property="og:title" content="Blended Fish" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://blended-fish.herokuapp.com" />
+        <meta property="og:image" content="cover.png" />
+        <meta property="og:description" content="Fish? Does it blend? Yes, it does." />
+        <meta property="og:site_name" content="Blended Fish" />
+
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
+    <%= favicon_link_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>

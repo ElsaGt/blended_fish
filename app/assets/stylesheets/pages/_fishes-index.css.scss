@@ -1,0 +1,63 @@
+#home {
+  background-color: $light-gray;
+  color: gray;
+  height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  p {
+    margin-top: 1.5em;
+  }
+  a {
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+#blended-button {
+  cursor: pointer;
+  font-family: "Pinyon Script";
+  font-size: 32px;
+  padding: 5px 10px;
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 20px auto;
+  width: 200px;
+  &:hover {
+    background-color: white;
+  }
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  .fish-image {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border: 1px solid $light-gray;
+    border-radius: 3px;
+    background-color: $light-gray;
+    &:hover {
+      background-color: white;
+    }
+  }
+  .fish-head {
+    background-size: auto 430px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 450px;
+    width: 500px;
+  }
+
+  .fish-queue {
+    background-size: auto 430px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 450px;
+    width: 500px;
+  }
+}

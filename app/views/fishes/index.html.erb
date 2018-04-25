@@ -1,0 +1,17 @@
+<div id="home">
+
+  <div id="blended-button">Blend the fish</div>
+  <div class="home-content">
+
+    <div class="fish-image">
+      <% fish = @fishes.sample %>
+      <% headurl = fish.head_image %>
+        <div class="fish-head" style='background-image: url(<%= asset_path "#{headurl}" %>)'></div>
+    </div>
+    <div class="fish-image">
+      <% fish = @fishes.sample %>
+      <% queueurl = fish.queue_image %>
+      <div class="fish-queue" style='background-image: url(<%= asset_path "#{queueurl}" %>)'></div>
+    </div>
+  </div>
+</div>
