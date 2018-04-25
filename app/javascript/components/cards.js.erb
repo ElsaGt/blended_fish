@@ -4,5 +4,18 @@ $(document).ready(function() {
   $("#blended-button").on("click", function() {
     $("#home").load("fishes");
   });
-
 });
+
+
+$(".fish-head").mouseover(function(){
+  $(".fish-head .fish-description").fadeIn(1000);
+});
+
+$(".fish-queue").mouseover(function(){
+  $(".fish-queue .fish-description").fadeIn(1000);
+});
+
+$(".fish-image").mouseleave(function(){
+  $(".fish-description").fadeOut(1000);
+});
+

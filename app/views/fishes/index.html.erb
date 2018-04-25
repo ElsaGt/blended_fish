@@ -6,12 +6,24 @@
     <div class="fish-image">
       <% fish = @fishes.sample %>
       <% headurl = fish.head_image %>
-        <div class="fish-head" style='background-image: url(<%= asset_path "#{headurl}" %>)'></div>
+        <div class="fish-head" style='background-image: url(<%= asset_path "#{headurl}" %>)'>
+          <h3><%= fish.first_name %></h3>
+          <div class="fish-description">
+            <h4><%= fish.first_name %> <%= fish.last_name %>:</h4>
+            <p><%= fish.description %></p>
+          </div>
+        </div>
     </div>
     <div class="fish-image">
       <% fish = @fishes.sample %>
       <% queueurl = fish.queue_image %>
-      <div class="fish-queue" style='background-image: url(<%= asset_path "#{queueurl}" %>)'></div>
+      <div class="fish-queue" style='background-image: url(<%= asset_path "#{queueurl}" %>)'>
+        <h3><%= fish.last_name %></h3>
+        <div class="fish-description">
+          <h4><%= fish.first_name %> <%= fish.last_name %>:</h4>
+          <p><%= fish.description %></p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

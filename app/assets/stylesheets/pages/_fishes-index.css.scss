@@ -18,8 +18,7 @@
 
 #blended-button {
   cursor: pointer;
-  font-family: "Pinyon Script";
-  font-size: 32px;
+  font-size: 24px;
   padding: 5px 10px;
   border: 2px solid gray;
   border-radius: 3px;
@@ -49,15 +48,64 @@
     background-size: auto 430px;
     background-repeat: no-repeat;
     background-position: center right;
-    height: 450px;
+    position: relative;
+    height: 480px;
     width: 500px;
+    .fish-description {
+      position: absolute;
+      display: none;
+      bottom: 0px;
+      left: 0px;
+      width: 500px;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 5px 15px;
+
+      h4 {
+        text-align: left;
+        padding-bottom: -10px;
+      }
+      p {
+        font-size: 12px;
+        text-align: left;
+      }
+    }
+  .fish-head, h3 {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+  }
   }
 
   .fish-queue {
     background-size: auto 430px;
     background-repeat: no-repeat;
     background-position: center left;
-    height: 450px;
+    position: relative;
+    height: 480px;
     width: 500px;
+    .fish-description {
+      display: none;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      width: 500px;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 5px 15px;
+
+      h4 {
+        text-align: right;
+        padding-bottom: -10px;
+      }
+      p {
+        font-size: 12px;
+        text-align: right;
+      }
+    }
+
+  .fish-queue, h3 {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+  }
   }
 }
