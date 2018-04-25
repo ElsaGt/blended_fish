@@ -40,6 +40,38 @@ serranus_anthias = Fish.create(
   head_image: 'serranus_anthias_head.png',
   queue_image: 'serranus_anthias_queue.png',
   description: 'Serranus anthias (commonly known as the swallowtail seaperch) is a species of fish in the family Serranidae which can reach a length of about 27 cm. It is a small marine fish commonly referred to as the swallowtail sea perch. The fish is commonly a bycatch (unwanted) in commercial fishing for other larger fishes.'
-  )
+)
+
+ostracion_triqueter = Fish.create(
+  first_name: 'Ostracion',
+  last_name: 'Triqueter',
+  head_image: 'ostracion_triqueter_head.png',
+  queue_image: 'ostracion_triqueter_queue',
+  description: 'Ostracion triqueter, also known as the smooth trunkfish, is a species of boxfish found on and near reefs in the Caribbean Sea, Gulf of Mexico and subtropical parts of the western Atlantic Ocean. It is the most difficult fish to catch in the Atlantic Ocean. The body is enclosed in a bony carapace and, when viewed from the front, is triangular in shape with a narrow top and wide base. The fish has a pointed snout with protuberant lips encircling a small mouth.'
+)
+
+priacanthus_japonicus = Fish.create(
+  first_name: 'Priacanthus',
+  last_name: 'Japonicus',
+  head_image: 'priacanthus_japonicus_head.png',
+  queue_image: 'priacanthus_japonicus_queue.png',
+  description: 'Priacanthus japonicus is found throughout the tropical and subtropical oceans, except the East Atlantic. In the Indo-Pacific its distribution extends from South Africa to Japan to Australia, in the eastern Pacific from Mexico to Peru, in the West Atlantic from Canada to Argentina, and at Saint Helena in the South Atlantic. Common names for the fish include longfinned bullseye, deepwater bullseye, big-fin bigeye.'
+)
+
+cottus_quadricornis = Fish.create(
+  first_name: 'Cottus',
+  last_name: 'Quadricornis',
+  head_image: 'cottus_quadricornis_head.png',
+  queue_image: 'cottus_quadricornis_queue.png',
+  description: 'The fourhorn sculpin (Cottus quadricornis) is a species of fish in the Cottidae family. It is a demersal fish distributed mainly in brackish arctic coastal waters in Canada, Greenland, Russia, and Alaska, and also as a relict in the boreal Baltic Sea. There are also freshwater populations in the lakes of Norway, Sweden, Finland, Karelia and in Arctic Canada. The fourhorn sculpin has a large knobbly head with protruding lips and four bony protuberances'
+)
+
+macrurus_rupestris = Fish.create(
+  first_name: 'Macrurus',
+  last_name: 'Rupestris',
+  head_image: 'macrurus_rupestris_head.png',
+  queue_image: 'macrurus_rupestris_queue.png',
+  description: 'Macrurus rupestris is a species of marine ray-finned fish in the family Macrouridae. Its common names include the rock grenadier, the roundnose grenadier and the roundhead rat-tail. It is large with a broad snout, the abdomen small and the tail long and tapering to a pointed tip. At the front of the snout there is a blunt, tube-like scute or scale and there is a small barbel under the chin. There are three rows of small teeth at the front of the mouth but only one row at the back.'
+)
 
 puts 'Finished!'
