@@ -42,22 +42,6 @@ serranus_anthias = Fish.create(
   description: 'Serranus anthias (commonly known as the swallowtail seaperch) is a species of fish in the family Serranidae which can reach a length of about 27 cm. It is a small marine fish commonly referred to as the swallowtail sea perch. The fish is commonly a bycatch (unwanted) in commercial fishing for other larger fishes.'
 )
 
-ostracion_triqueter = Fish.create(
-  first_name: 'Ostracion',
-  last_name: 'Triqueter',
-  head_image: 'ostracion_triqueter_head.png',
-  queue_image: 'ostracion_triqueter_queue',
-  description: 'Ostracion triqueter, also known as the smooth trunkfish, is a species of boxfish found on and near reefs in the Caribbean Sea, Gulf of Mexico and subtropical parts of the western Atlantic Ocean. It is the most difficult fish to catch in the Atlantic Ocean. The body is enclosed in a bony carapace and, when viewed from the front, is triangular in shape with a narrow top and wide base. The fish has a pointed snout with protuberant lips encircling a small mouth.'
-)
-
-priacanthus_japonicus = Fish.create(
-  first_name: 'Priacanthus',
-  last_name: 'Japonicus',
-  head_image: 'priacanthus_japonicus_head.png',
-  queue_image: 'priacanthus_japonicus_queue.png',
-  description: 'Priacanthus japonicus is found throughout the tropical and subtropical oceans, except the East Atlantic. In the Indo-Pacific its distribution extends from South Africa to Japan to Australia, in the eastern Pacific from Mexico to Peru, in the West Atlantic from Canada to Argentina, and at Saint Helena in the South Atlantic. Common names for the fish include longfinned bullseye, deepwater bullseye, big-fin bigeye.'
-)
-
 cottus_quadricornis = Fish.create(
   first_name: 'Cottus',
   last_name: 'Quadricornis',
