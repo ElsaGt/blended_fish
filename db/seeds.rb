@@ -39,7 +39,7 @@ serranus_anthias = Fish.create(
   last_name: 'Anthias',
   head_image: 'serranus_anthias_head.png',
   queue_image: 'serranus_anthias_queue.png',
-  description: 'Serranus anthias (commonly known as the swallowtail seaperch) is a species of fish in the family Serranidae which can reach a length of about 27 cm. It is a small marine fish commonly referred to as the swallowtail sea perch. The fish is commonly a bycatch (unwanted) in commercial fishing for other larger fishes.'
+  description: 'The Serranus anthias (commonly known as the swallowtail seaperch) is a species of fish in the family Serranidae which can reach a length of about 27 cm. It is a small marine fish commonly referred to as the swallowtail sea perch. The fish is commonly a bycatch (unwanted) in commercial fishing for other larger fishes.'
 )
 
 cottus_quadricornis = Fish.create(
@@ -55,7 +55,31 @@ macrurus_rupestris = Fish.create(
   last_name: 'Rupestris',
   head_image: 'macrurus_rupestris_head.png',
   queue_image: 'macrurus_rupestris_queue.png',
-  description: 'Macrurus rupestris is a species of marine ray-finned fish in the family Macrouridae. Its common names include the rock grenadier, the roundnose grenadier and the roundhead rat-tail. It is large with a broad snout, the abdomen small and the tail long and tapering to a pointed tip. At the front of the snout there is a blunt, tube-like scute or scale and there is a small barbel under the chin. There are three rows of small teeth at the front of the mouth but only one row at the back.'
+  description: 'The Macrurus rupestris is a species of marine ray-finned fish in the family Macrouridae. Its common names include the rock grenadier, the roundnose grenadier and the roundhead rat-tail. It is large with a broad snout, the abdomen small and the tail long and tapering to a pointed tip. At the front of the snout there is a blunt, tube-like scute or scale and there is a small barbel under the chin. There are three rows of small teeth at the front of the mouth but only one row at the back.'
+)
+
+prionotus_tribulus = Fish.create(
+  first_name: 'Prionotus',
+  last_name: 'Tribulus',
+  head_image: 'prionotus_tribulus_head.png',
+  queue_image: 'prionotus_tribulus_queue.png',
+  description: 'The Prionotus tribulus is distributed in the western Atlantic from the Chesapeake Bay south along the U.S. coast in the Gulf of Mexico from the Florida Keys north along the Gulf coast down to the Yucatan Peninsula, Mexico. Its depth range is 9-183 m, but usually occurs between 9-64 m. This demersal species is found on mud-sand bottoms, especially in bays. Juveniles are found in estuaries.'
+)
+
+trigla_lucerna = Fish.create(
+  first_name: 'Trigla',
+  last_name: 'Lucerna',
+  head_image: 'trigla_lucerna_head.png',
+  queue_image: 'trigla_lucerna_queue.png',
+  description: 'The tub gurnard (Trigla lucerna) is a species of bottom-dwelling coastal fish with a spiny armored head and fingerlike pectoral fins used for crawling along the sea bottom. The tub gurnard is a reddish fish with blue pectoral fins. It is a coastal species, prevalent in the Mediterranean Sea and the Atlantic Ocean from Norway to Cape Blanc. It is also present, though less common, in the Black Sea, the southern Baltic and the eastern Mediterranean.'
+)
+
+serranus_oculatus = Fish.create(
+  first_name: 'Serranus',
+  last_name: 'Oculatus',
+  head_image: 'serranus_oculatus_head.png',
+  queue_image: 'serranus_oculatus_queue.png',
+  description: 'The queen snapper (Serranus oculatus) is a species of snapper native to east of the Windward Islands and the Caribbean Sea. It is the only species of Etelis not native to the Indian and Pacific oceans. The species lives and is caught at depths of about 300 to 400 ft. The queen snapper is bright red on its upper and lower sides with large and yellow eyes. It has silvery sides and a deeply forked red tail that continues to lengthen as the fish grows.'
 )
 
 puts 'Finished!'
