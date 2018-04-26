@@ -1,5 +1,9 @@
 import 'jquery';
 
+$.ajaxPrefilter(function( options, original_Options, jqXHR ) {
+    options.async = true;
+});
+
 $(document).ready(function() {
   $("#blended-button").on("click", function() {
     $("#home").load("fishes");
@@ -18,4 +22,3 @@ $(".fish-queue").mouseover(function(){
 $(".fish-image").mouseleave(function(){
   $(".fish-description").fadeOut(1000);
 });
-
